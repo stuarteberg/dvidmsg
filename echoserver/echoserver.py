@@ -10,9 +10,6 @@ import dvidmsg.protobuf_codec
 
 from dvidmsg.timer import Timer
 
-# Implement echo
-# Show that it works for thrift, proto
-# Implement 'manual' send
 class EchoRequestHandler(BaseHTTPRequestHandler):
     def do_PUT(self):
         if not "echo" in self.path:
