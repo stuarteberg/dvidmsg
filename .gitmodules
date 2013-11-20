@@ -1,0 +1,6 @@
+[submodule "dvidmsg/dvidmsg-protobuf"]
+	path = dvidmsg/dvidmsg-protobuf
+	url = git://github.com/stuarteberg/dvidmsg-protobuf.git
+[submodule "dvidmsg/dvidmsg-thrift"]
+	path = dvidmsg/dvidmsg-thrift
+	url = git://github.com/stuarteberg/dvidmsg-thrift.git
